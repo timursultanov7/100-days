@@ -1,0 +1,176 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Overpass&display=swap");
+
+body {
+  background-color: #000;
+  font-family: "Overpass", sans-serif;
+  /* font-size: 15px; */
+}
+
+.main-wrapper {
+  height: 80vh;
+  /* border: 2px solid black; */
+
+  /* height: 80vh; */
+  /* width: 400px; */
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  /* padding: 50px; */
+}
+
+.rating-container {
+  color: #fff;
+
+  background-color: rgb(48, 48, 48);
+  /* padding: 100px; */
+  /* margin: 1rem 2rem ; */
+
+  display: flex;
+  height: 470px;
+  width: 450px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 50px;
+  /* border: 2px solid red; */
+}
+
+.img-h2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  /* font-weight: bold; */
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.selected-p {
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(25, 97%, 53%);
+  /* border: 2px solid black; */
+  border-radius: 30px;
+  width: 100%;
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.star {
+  margin-bottom: 3rem;
+  display: flex;
+  height: 5vh;
+  width: 100%;
+  justify-items: flex-start;
+}
+
+.h1-class {
+  display: flex;
+  justify-items: flex-start;
+  width: 100%;
+  margin-bottom: 0.8rem;
+}
+
+.h2-class {
+  margin-bottom: 1rem;
+}
+.paragraph {
+  margin-bottom: 2rem;
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+.dots-container {
+  /* margin-bottom: 2.2rem; */
+  display: flex;
+  flex-direction: row;
+}
+
+.dots-container {
+  /* margin-bottom: 3rem; */
+  /* border: 2px solid black; */
+  display: flex;
+  width: 100%;
+  /* gap: 0.1rem; */
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  /* justify-content: center; */
+}
+
+.dot {
+  /* font-weight: 400; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: none;
+  /* appearance: none; */
+  /* border: 1px solid black; */
+  height: 3.4rem;
+  width: 3.4rem;
+  background-color: #bbb;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.btn,
+.btn-retry {
+  width: 100%;
+  /* height: 3rem; */
+  padding: 0.625rem 2rem 0.5rem;
+  border-radius: 30px;
+  background-color: hsl(25, 97%, 53%);
+  border-style: none;
+  font-weight: 549;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+
+.rating-and-btn {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+
+/* PSEUDO CLASSES */
+
+.btn:hover,
+.btn-retry:hover {
+  background-color: azure;
+  color: hsl(25, 97%, 53%);
+}
+
+.btn,
+.btn-retry:active {
+}
+
+.dot:hover {
+  background-color: hsl(25, 97%, 53%);
+  cursor: pointer;
+}
+
+.dot:active {
+  background-color: hsl(25, 97%, 53%);
+}
+
+.btn:active {
+  background-color: hsl(25, 97%, 53%);
+}
+
+.active {
+  background-color: hsl(25, 97%, 53%);
+}

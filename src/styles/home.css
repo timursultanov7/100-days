@@ -1,0 +1,44 @@
+body {
+  /* background-color: antiquewhite; */
+  /* background-color: #495057; */
+  font-family: "sans-serif";
+}
+
+.challenges-heading {
+  text-align: center;
+}
+.main-container {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  margin: 30px;
+}
+
+.div-link {
+  padding: 5px;
+  text-align: center;
+  width: 15vw;
+
+  margin-bottom: 2rem;
+  border: 1px solid #3bc9db;
+  background-color: #495057;
+}
+
+.nav-link {
+  color: #e3fafc;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.div-link:hover {
+  color: #495057;
+  background-color: #3bc9db;
+}
+
+.div-link:hover .nav-link {
+  color: #495057;
+  text-decoration: underline;
+}
+.div-link:active {
+  background-color: #e3fafc;
+}

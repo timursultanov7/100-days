@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "sans-serif";
+}
+
+/* input,
+label {
+  display: block;
+} */
+
+#PaymentForm {
+  margin: 5rem auto;
+  height: 100vh;
+  display: flex;
+}
+.credit-card {
+  /* display: flex; */
+  margin-top: 2rem;
+  padding-right: 5rem;
+
+  width: 40vw;
+  order: 1;
+}
+
+.form-container {
+  order: -1;
+  margin: 2rem auto;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid orangered;
+  flex-direction: column;
+  width: 50%;
+  height: 70%;
+  border-radius: 12px;
+}
+
+.holder-number-container {
+  width: 100%;
+  /* border: 3px solid green; */
+}
+
+.exp-cvv-container {
+  margin-top: 2rem;
+  display: flex;
+  /* border: 3px solid red; */
+  height: 30%;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  width: 100%;
+}
+
+.label-item {
+  color: orangered;
+}
+
+.input-item {
+  display: flex;
+
+  width: 80%;
+  margin: 0.5rem;
+  padding: 1rem;
+}
+
+.h2-paragraph {
+  /* display: flex; */
+}
+
+.submit-btn {
+  margin-top: 2rem;
+  height: 3rem;
+  width: 80%;
+  border: none;
+  border-radius: 10px;
+  background-color: orangered;
+}
+
+.submit-btn:hover {
+  background-color: aliceblue;
+  cursor: pointer;
+}
